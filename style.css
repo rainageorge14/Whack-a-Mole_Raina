@@ -1,0 +1,44 @@
+header h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 100px;
+}
+
+#score span{
+    text-align: center;
+    font-size: 50px;
+    
+}
+#score{
+    display: flex;
+    justify-content: center;
+}
+
+.molebox{
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px 15px;
+}
+
+.molebox button{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background-color: blueviolet;
+    border: 7px solid black;
+}
+
+.restart{
+    display: flex;
+    justify-content: center;
+
+}
+#bun{
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    font-size: 20px;
+    
+}
